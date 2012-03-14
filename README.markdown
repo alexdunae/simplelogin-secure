@@ -2,4 +2,4 @@
 
 A simple and secure login system for CodeIgniter.
 
-See [dialect.ca/code/ci-simple-login-secure/](http://dialect.ca/code/ci-simple-login-secure/) for details.
+This library is now maintained by Stéphane Bourzeix.  Check out its new home at [https://github.com/DaBourz/SimpleLoginSecure](https://github.com/DaBourz/SimpleLoginSecure).
