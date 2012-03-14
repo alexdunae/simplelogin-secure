@@ -59,7 +59,7 @@ class SimpleLoginSecure
 		
 		//Check against user table
 		$this->CI->db->where('user_email', $user_email); 
-		$query = $this->CI->db->getwhere($this->user_table);
+		$query = $this->CI->db->get_where($this->user_table);
 		
 		if ($query->num_rows() > 0) //user_email already exists
 			return false;
@@ -110,7 +110,7 @@ class SimpleLoginSecure
 		
 		//Check against user table
 		$this->CI->db->where('user_email', $user_email); 
-		$query = $this->CI->db->getwhere($this->user_table);
+		$query = $this->CI->db->get_where($this->user_table);
 
 		
 		if ($query->num_rows() > 0) 
